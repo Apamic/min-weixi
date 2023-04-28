@@ -1,0 +1,36 @@
+.absolute { 
+	position: absolute; 
+}
+.relative { 
+	position: relative; 
+}
+.fixed {
+	position: fixed;
+}
+.fixed0 {
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.absolute-auto {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%); 
+}
+.absolute-center {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%); 
+}
+.absolute-middle {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.fixed-auto {
+	position: fixed;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%); 
+}
