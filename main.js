@@ -10,6 +10,10 @@ import request from 'utils/request.js'
 
 Vue.prototype.$request = new request().http
 
+// 引入语言包
+import i18n from "./language/index18.js";
+
+
 
 // #ifndef VUE3
 import Vue from 'vue'
@@ -45,6 +49,7 @@ try {
 } catch (error) { }
 
 const app = new Vue({
+	i18n,
   ...App
 })
 app.$mount()

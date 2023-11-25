@@ -81,7 +81,7 @@
 	
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "数字未来",
+		"navigationBarTitleText": "",
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#FFFFFF"
 	},

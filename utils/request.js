@@ -52,16 +52,18 @@ class request {
 				},
 				fail: (e) => {
 					uni.showToast({
-						title: "" + e.data.msg,
+						title: e.data?.msg ? e.data.msg : '请求异常',
 						icon: 'none'
 					});
 					resolve(e.data);
+					console.log(e.data,'fail')
 				},
 				complete() {
 					if (!hideLoading) {
 						uni.hideLoading();
 					}
 					resolve()
+					console.log('complete')
 					return
 				}
 			})
